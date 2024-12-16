@@ -39,10 +39,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 .button {
@@ -102,7 +104,8 @@ input,button{
   justify-content: space-between;
   align-items: center;
 }
-.task-container > * {
+.task-container >
+* {
   vertical-align: middle;
 }
 
@@ -116,7 +119,8 @@ input,button{
   font-size: 18px;
   width: 226px;
 }
-.task-container > .input-text {
+.task-container >
+.input-text {
   width: 226px;
 }
 .delete-icon {
@@ -129,21 +133,25 @@ input,button{
 }
 
 /* Completed */
-#completed-tasks .task-label {
+#completed-tasks
+.task-label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.task-container .input-text {
+.task-container
+.input-text {
   display: none;
 }
 
-.edit-mode .input-text {
+.edit-mode
+.input-text {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task-label {
+.edit-mode
+.task-label {
   display: none;
 }
